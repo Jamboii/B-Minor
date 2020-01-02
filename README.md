@@ -6,8 +6,8 @@ This repository contains the source code for a B-Minor compiler, [as described b
 The compiler handles parsing, scanning, typechecking and code generation. It has to be assembled, but it can compile alongside C functions
 
 ## Instructions
-To scan: `bminor -scan source.bminor`
-To parse: `bminor -parse source.bminor`
-To typecheck: `bminor -typecheck source.bminor`
-To generate assembly code: `bminor -codegen source.bminor sourcefile.s`
+To scan: `bminor -scan source.bminor`  
+To parse: `bminor -parse source.bminor`  
+To typecheck: `bminor -typecheck source.bminor`  
+To generate assembly code: `bminor -codegen source.bminor sourcefile.s`  
 To convert assembly into executable: `gcc -g sourcefile.s library.c -o program`
